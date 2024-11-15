@@ -18,7 +18,7 @@ onMounted(async () => {
       <div>Sidebar</div>
     </template>
     <template #main>
-      <div>Content</div>
+      <div>Content: hello Word !</div>
     </template>
     <template #footer>
       <div>Footer</div>

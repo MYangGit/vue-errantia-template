@@ -25,12 +25,12 @@
   "categories": [
     "Other"
   ],
-  
   "main": "./extension.cjs",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "updata-package": "node ./package-edit.cjs"
+    "updata-package": "node ./package-edit.cjs",
+    "build:app": "vite build && node ./package-edit.cjs && vsce package --no-yarn"
   },
   "dependencies": {
     "defer-promise": "^3.0.0",
